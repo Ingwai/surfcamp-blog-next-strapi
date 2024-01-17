@@ -1,0 +1,45 @@
+.footer {
+	background-color: black;
+	color: white;
+	padding: 6rem 4.8rem 4.5rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+
+	&__logo {
+		width: 8rem;
+		color: white;
+		filter: invert(81%) sepia(53%) saturate(0%) hue-rotate(226deg) brightness(114%) contrast(100%);
+	}
+
+	&__nav {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding-right: 6rem;
+
+		margin-bottom: 3.5rem;
+	}
+
+	&__links {
+		display: flex;
+		list-style: none;
+
+		& li:not(:last-of-type) {
+			margin-right: 6.3rem;
+		}
+	}
+
+	&__policies {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	&__policies-nav {
+		display: flex;
+		list-style: none;
+		& li:not(:last-of-type) {
+			margin-right: 3.5rem;
+		}
+	}
+}

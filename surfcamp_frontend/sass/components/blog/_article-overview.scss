@@ -1,0 +1,37 @@
+.article-overview {
+	display: flex;
+	gap: 5rem;
+	justify-content: space-between;
+	margin-top: 4rem;
+	margin-bottom: 12rem;
+	align-items: flex-end;
+
+	&__info {
+		width: 60%;
+	}
+
+	&__excerpt {
+		font-size: 3rem;
+		line-height: 4rem;
+		font-weight: 500;
+		font-family: 'Open Sans', sans-serif;
+	}
+
+	&__contents {
+		font-size: 3rem;
+		color: #0041e8;
+		list-style: none;
+		line-height: 4rem;
+		text-decoration: underline;
+		font-family: 'Open Sans', sans-serif;
+		text-align: right;
+
+		& li {
+			margin-bottom: 1.4rem;
+		}
+	}
+
+	&__headline {
+		margin-bottom: 2.4rem;
+	}
+}

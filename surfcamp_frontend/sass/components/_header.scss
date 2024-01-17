@@ -1,0 +1,31 @@
+.header {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 2.2rem 4.8rem;
+	z-index: 100;
+
+	&--light {
+		color: white;
+
+		& .header__logo {
+			filter: invert(81%) sepia(53%) saturate(0%) hue-rotate(226deg) brightness(114%) contrast(100%);
+		}
+	}
+
+	&__logo {
+		width: 5rem;
+	}
+
+	&__nav {
+		display: flex;
+		list-style: none;
+		& li:not(:last-of-type) {
+			margin-right: 4.6rem;
+		}
+	}
+}
